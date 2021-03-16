@@ -1,0 +1,21 @@
+#head-cards, #body-cards {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.big-cards {
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    background-color: grey;
+  max-width: 23%;
+}
+
+
+.small-cards {
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    background-color: grey;
+  max-width: 23%;
+  margin: 10px 10px;
+}
